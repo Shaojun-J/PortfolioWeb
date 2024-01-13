@@ -1,3 +1,13 @@
+# Files and directories created by pub.
+.dart_tool/
+.packages
+
+# Conventional directory for build output.
+.DS_Store
+build/
+.gradle/
+
+### Node ###
 # Logs
 logs
 *.log
@@ -102,7 +112,6 @@ dist
 
 # vuepress v2.x temp and cache directory
 .temp
-.cache
 
 # Docusaurus cache and generated files
 .docusaurus
@@ -129,6 +138,12 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+### Node Patch ###
+# Serverless Webpack directories
+.webpack/
 
-server/package-lock.json
-client/package-lock.json
+# Optional stylelint cache
+
+# SvelteKit build / generate output
+.svelte-kit
+
