@@ -6,9 +6,7 @@ name: Node.js CI
 on:
   push:
     branches: [ "main" ]
-  # pull_request:
-  #   branches: [ "main" ]
-
+  
 jobs:
   build:
 
@@ -23,9 +21,6 @@ jobs:
         cache: 'npm'
         cache-dependency-path: server/package-lock.json
     
-    # - run: |
-    #     cd client
-    #     npm install
         
     - run: |
         cd server
