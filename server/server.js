@@ -15,7 +15,7 @@ app.use((req, res, next) => {
   });
 
 // Routes
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
     res.send('Welcome to the server of my portfolio!');
 });
 
