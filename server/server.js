@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');  
 require('dotenv').config();
-
+const WeatherRouter = require('./routers/weatherRoutes');
 
 const app = express();
 // Middlewares
@@ -18,6 +18,9 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
     res.send('Welcome to the server of my portfolio!');
 });
+
+app.use('/api/weather', WeatherRouter);
+
 
 
 app.listen(process.env.PORT, () => {

@@ -1,4 +1,5 @@
 import React from 'react'
+import Weather from './Weather'
 
 
 export default function NavBar() {
@@ -44,9 +45,11 @@ export default function NavBar() {
                         <hr />
 
                     </ul>
-
                 </nav>
             </div>
+
+            <Weather />
+            <hr />
 
             <div className="copyright_style">
                 Copyright &copy; 2023 All rights reserved
