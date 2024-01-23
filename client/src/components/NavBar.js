@@ -22,24 +22,24 @@ export default function NavBar() {
                 <nav className="nav_style ">
                     <ul className="nav justify-content-center flex-column nav_listStyle" >
                         <li className="nav-item">
-                            <a href="./index.html">HOME</a>
+                            <a href="./">HOME</a>
                         </li>
                         <li className="nav-item">
-                            <a href="./index.html#about_id">ABOUT</a>
+                            <a href="#about_id">ABOUT</a>
                         </li>
                         <li className="nav-item">
-                            <a href="./index.html#skills_id">SKILLS</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a href="./index.html#education_id">EDUCATION</a>
-                        </li>
-                        <li className="nav-item">
-                            <a href="./index.html#experience_id">EXPERIENCE</a>
+                            <a href="#skills_id">SKILLS</a>
                         </li>
 
                         <li className="nav-item">
-                            <a href="./index.html#contact_id">CONTACT</a>
+                            <a href="#education_id">EDUCATION</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#experience_id">EXPERIENCE</a>
+                        </li>
+
+                        <li className="nav-item">
+                            <a href="#contact_id">CONTACT</a>
                         </li>
 
                         <hr />
