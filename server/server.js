@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');  
 require('dotenv').config();
 const WeatherRouter = require('./routers/weatherRoutes');
+const InfoRouter = require('./routers/infoRoutes');
 
 const app = express();
 // Middlewares
@@ -20,6 +21,7 @@ app.get('/api', (req, res) => {
 });
 
 app.use('/api/weather', WeatherRouter);
+app.use('/api/info', InfoRouter);
 
 
 
