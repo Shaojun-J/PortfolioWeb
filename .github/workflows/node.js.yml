@@ -37,7 +37,7 @@ jobs:
 
     - run: |
         cd server 
-        pm2 start app.js --name=ServerAPI
+        pm2 start server.js --name=ServerAPI
     # - run: pm2 restart ServerAPI
     
     
