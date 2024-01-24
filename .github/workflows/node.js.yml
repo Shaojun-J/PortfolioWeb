@@ -37,8 +37,8 @@ jobs:
 
     - run: |
         cd server 
-        pm2 start server.js --name=ServerAPI
-    # - run: pm2 restart ServerAPI
+        # pm2 start server.js --name=ServerAPI
+        pm2 restart ServerAPI
     
     
     # - run: npm run build --if-present
