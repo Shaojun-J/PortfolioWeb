@@ -6,8 +6,8 @@ const router = express.Router();
 
 router.get('/', async (req, res) => {
 
-    res.status(200).json({ 
-        name: 'Shaojun Jiang',
+    res.status(200).json({
+        name: 'Shaojun',
         email: 'shaojun.jiang@outlook.com',
         phone: '872-993-5993',
         linkedin: 'https://www.linkedin.com/in/shaojun-jiang',
