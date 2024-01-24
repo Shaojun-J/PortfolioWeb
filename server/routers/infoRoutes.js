@@ -11,7 +11,9 @@ router.get('/', async (req, res) => {
         email: 'shaojun.jiang@outlook.com',
         phone: '872-993-5993',
         linkedin: 'https://www.linkedin.com/in/shaojun-jiang',
+        info: 'I am a full-stack web developer with a background in mechanical engineering. I am passionate about building web applications that are intuitive and user-friendly. I am a quick learner and a problem solver. I am looking for a full-time position as a web developer.'
     });
+
 
 });
 
